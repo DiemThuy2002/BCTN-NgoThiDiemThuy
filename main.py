@@ -11,10 +11,11 @@ def main():
             display: flex;
             justify-content: space-between;
             align-items: center;
-            background-color: #2c3e50;  # Dark slate color for menu background
+            background-color: #FFFFFF;  # White color for menu background
             padding: 5px;
             border-radius: 5px;
-            color: #ecf0f1;  # Soft white text color
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);  # Adding shadow for depth
+            color: #333333;  # Dark grey text color for better contrast on white
         }
         .menu-container .menu-title {
             font-size: 20px;
@@ -22,7 +23,7 @@ def main():
         }
         .menu-container .additional-info {
             font-size: 18px;
-            color: #f39c12;  # Bright orange for visibility
+            color: #3498db;  # Blue for additional info to make it stand out
             font-style: italic;
         }
         </style>
@@ -31,16 +32,17 @@ def main():
             <span class="additional-info">Edited by: Ngô Thị Diễm Thúy</span>
         </div>
     """, unsafe_allow_html=True)
+
     app = option_menu(
         menu_title="MAIN MENU",
         options=["Dashboard", "Predict"],
         default_index=0,
         orientation="horizontal",
         styles={
-            "container": {"padding": "5!important", "background-color": '#333333', "color": "#FFFFFF"},
-            "icon": {"color": "white", "font-size": "23px"},
-            "nav-link": {"font-size": "20px", "text-align": "center", "margin": "0px", "--hover-color": "#444444"},
-            "nav-link-selected": {"background-color": "#555555"},
+            "container": {"padding": "5!important", "background-color": '#FFFFFF', "color": "#333333"},
+            "icon": {"color": "grey", "font-size": "23px"},
+            "nav-link": {"font-size": "20px", "text-align": "center", "margin": "0px", "--hover-color": "#EEEEEE"},
+            "nav-link-selected": {"background-color": "#CCCCCC"},
         }
     )
 

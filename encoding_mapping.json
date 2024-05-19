@@ -1,0 +1,44 @@
+{
+    "Nguồn": {
+        "Data cũ": 0,
+        "Data mua": 1,
+        "Fanpage": 2,
+        "HV giới thiệu": 3,
+        "Hotline": 4,
+        "Người quen": 5,
+        "Seeding": 6,
+        "Website": 7,
+        "Đến trung tâm": 8
+    },
+    "Giao cho nhân viên Sale": {
+        "Cúc": 0,
+        "Duyên ": 1,
+        "Linh": 2,
+        "Loan": 3,
+        "Phương": 4,
+        "Thu": 5,
+        "Thảo": 6,
+        "Yến": 7,
+        "Ánh": 8
+    },
+    "Kế hoạch tiếp theo": {
+        "Chốt": 0,
+        "Từ chối": 1
+    },
+    "Đã test": {
+        "Có": 0,
+        "Không": 1
+    },
+    "Facebook": {
+        "Có": 1,
+        "Không": 0
+    },
+    "SĐT": {
+        "Có": 1,
+        "Không": 0
+    },
+    "Zalo": {
+        "Có": 1,
+        "Không": 0
+    }
+}
